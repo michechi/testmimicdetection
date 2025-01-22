@@ -1,0 +1,14 @@
+name: huggingface
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pytorch
+  - lightning
+  - datasets
+  - accelerate
+  - huggingface_hub
+  - peft
+  - transformers
+  - tensorboard
+  - bitsandbytes
